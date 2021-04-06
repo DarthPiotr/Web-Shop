@@ -1,0 +1,122 @@
+﻿div.product {
+    overflow: auto;
+}
+
+    div.product img {
+        max-height: 225px;
+        display: block;
+        margin: auto;
+    }
+
+div.filter {
+    border: 1px solid #bcbcbc;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.filter hr{
+    margin: 2px auto;
+    border-color: #d0d0d0;
+}
+
+    div.filter a {
+        color: #848484;
+        text-decoration: none;
+        font-weight: bold;
+        width: 100%;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    div.filter label {
+        margin-left: 5px;
+        font-weight: normal;
+    }
+
+        div.filter a:hover::after {
+            content: " ▾";
+        }
+
+div.filtering input[type="submit"] {
+    width: 100%;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+div.filtering h3{
+    margin-top: 0px;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+    div#basicinfo ul {
+        list-style-type: none;
+        padding: 0px;
+        font-size: large;
+    }
+
+div#priceinfo{
+    margin: 10px 0;
+}
+
+div#priceinfo h2 {
+    text-align: right;
+}
+
+div#priceinfo .button {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+div#specs h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div#specs td{
+    width: 50%;
+}
+
+div#specs tr td:nth-child(1) {
+    text-align: right;
+    font-weight: bold;
+}
+
+div#carousel{
+    margin: 10px auto;
+}
+    div#carousel img {
+        max-height: 450px;
+        object-fit:contain;
+    }
+
+table.cart td.image, table.cart th{
+    text-align: center;
+}
+
+table.cart td {
+    vertical-align: middle !important;
+    padding: 10px;
+    text-align: center;
+}
+
+table.cart td.number {
+    text-align: right;
+}
+
+table.cart td.number input {
+    max-width: 50px;
+}
+
+li.ok:before {
+    content: "\e013";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+}
