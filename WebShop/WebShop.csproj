@@ -237,6 +237,7 @@
       <DependentUpon>Product.aspx</DependentUpon>
     </Compile>
     <Compile Include="DatabaseProduct.cs" />
+    <Compile Include="Secrets.cs" />
     <Compile Include="Shop.aspx.cs">
       <DependentUpon>Shop.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

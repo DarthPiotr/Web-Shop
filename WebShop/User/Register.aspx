@@ -38,14 +38,14 @@
             <span runat="server" id="checkPasswd2" />
         </div>
         <div class="form-group">
-            <div id="recaptcha" class="g-recaptcha" data-type="image" data-sitekey="6LdK2qYUAAAAAJ-UAjw9T-Gn3xy62wWVudxIBwD1">
+            <div id="recaptcha" class="g-recaptcha" data-type="image" data-sitekey="6LdbAKAaAAAAAB2IMWMtkkIUMxqlF4HU1w4ANkxs">
 
             </div>
                 <label type="hidden" id="lblMessage" runat="server" clientidmode="static"></label>
             
             <script src="https://www.google.com/recaptcha/api.js?onload=renderRecaptcha&render=explicit"" async defer></script>
             <script>
-                var your_site_key = '6LdK2qYUAAAAAJ-UAjw9T-Gn3xy62wWVudxIBwD1';
+                var your_site_key = '6LdbAKAaAAAAAB2IMWMtkkIUMxqlF4HU1w4ANkxs';
                 var renderRecaptcha = function () {
                     grecaptcha.render('recaptcha', {
                         'sitekey': your_site_key,

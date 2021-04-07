@@ -137,7 +137,7 @@ namespace WebShop
         {
             var result = false;
             var captchaResponse = Request.Form["g-recaptcha-response"];
-            var secretKey = "6LdK2qYUAAAAABQWs-YGnaP5eBr4CXYw_piXNU74";
+            var secretKey = Secrets.reCAPTCHA_secret;
             var apiUrl = "https://www.google.com/recaptcha/api/siteverify?secret={0}&response={1}";
             var requestUri = string.Format(apiUrl, secretKey, captchaResponse);
             var request = (HttpWebRequest)WebRequest.Create(requestUri);
